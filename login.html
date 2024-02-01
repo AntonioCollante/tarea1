@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login - SPORT</title>
+
+    <meta name="description" content="User login page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no" />
+    <meta charset="utf-8">
+
+    <link href="assets/css/login.css" rel="stylesheet" type="text/css">
+
+    <style type="text/css">
+        body {
+            font: 14px sans-serif;
+        }
+    </style>
+</head>
+
+<body
+    style="background-image: url(assets/img/fondo.jpg);background-position: center center;background-repeat: no-repeat;background-attachment: fixed;background-size: cover;background-color: #66999;">
+
+    <div>
+        <nav class="barra">
+            <h1> Bienvenido a <font class='text-warning'> SPORT </font>v1.0</h1>
+        </nav>
+    </div>
+
+    <div class="container-contacto">
+        <form action="index.html" id="form" method="POST">
+            <h2>Login</h2>
+            <br>
+            <input type="text" name="usuario" id="usuario" placeholder="Ingrese su Usuario"
+                onkeypress="return sololetras(event)" onpaste="return false" required maxlength="50">
+            <input type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña" required>
+            <input type="submit" id="button-contacto" value="ENVIAR" class="button">
+        </form>
+    </div>
+
+</body>
+
+</html>
