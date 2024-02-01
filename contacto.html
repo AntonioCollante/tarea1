@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SPORT</title>
+  <title>SPORT - Contacto</title>
   <link href="assets/css/contacto.css" rel="stylesheet" type="text/css">
   <link href="assets/css/menu.css" rel="stylesheet" type="text/css">
   <link href="assets/css/footer.css" rel="stylesheet" type="text/css">
   <link href="assets/css/estilos.css" rel="stylesheet" type="text/css">
-  <script  src="assets/js/contacto.js"></script>
+  <script src="assets/js/contacto.js"></script>
   </script>
 </head>
 
@@ -30,6 +30,7 @@
           </li>
           <li><a href="productos.html">Productos</a></li>
           <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="login.html">Cerrar Sesión</a></li>
         </ul>
       </nav>
     </div>
@@ -45,7 +46,8 @@
       <input type="text" name="celular" id="celular" placeholder="Ingrese su Celular"
         onkeypress="return solonumeros(event)" onpaste="return false" required maxlength="9">
       <textarea name="mensaje" placeholder="Escriba su Mensaje" required></textarea>
-      <input type="submit" id="button-contacto" value="ENVIAR" class="button" onclick="validarCorreo(form.correo.value)">
+      <input type="submit" id="button-contacto" value="ENVIAR" class="button"
+        onclick="validarCorreo(form.correo.value)">
     </form>
   </div>
 

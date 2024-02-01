@@ -11,8 +11,8 @@
 .container-productos article {
     width: 260px;
     height: 390px;
-    background: #4E5D6C;
-    color:#f2f2f2;
+    background: #1a17c4;
+    color:#0ff51a;
     border-radius: 8px;
     border:1px solid  #DF691A;
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
@@ -23,8 +23,51 @@
     transition: all 0.25s;
 }
 
-.container-productos article img{
+.container-productos article img {
     width: 260px;
     height: 190px;
     cursor: pointer;
+}
+
+/*coloco animacion de article*/
+.container-productos article:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgb(247, 3, 3);
+}
+
+h5{
+    font-weight: bold;
+    padding: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.container-productos article p{
+    padding-top: 5px;
+    color: rgba(241, 245, 19, 0.932);
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.container-productos article a{
+    padding:10px;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.button {
+    background:#f01009;
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    color:  #f2f2f2;
+    font-weight: 700;
+}
+.button:hover {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #f1e208;
+    color: #f51010;
 }
