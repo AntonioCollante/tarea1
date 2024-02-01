@@ -1,0 +1,28 @@
+.contenedor-footer {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.copyright {
+    background: #b30202;
+    padding: 25px 0;
+}
+
+.copyright-mensaje p {
+    margin: 0;
+    font-size: 14px;
+    color: #eef119;
+}
+
+.area-footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}

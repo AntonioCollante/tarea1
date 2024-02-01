@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPORT</title>
+  <link href="assets/css/contacto.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/menu.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/footer.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/estilos.css" rel="stylesheet" type="text/css">
+  <script  src="assets/js/contacto.js"></script>
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="menu tituloMenu">
+      <a href="index.html">
+        <p class="titulo">SPORT</p>
+      </a>
+      <nav class="navigation">
+        <ul>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="">Gestionar Perfil</a>
+            <ul>
+              <li><a href="crearcuenta.html">Crear Cuenta</a></li>
+              <li><a href="cambiaclave.html">Actualiza tu Clave</a></li>
+            </ul>
+          </li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container-contacto">
+    <form action="#" id="form" method="POST">
+      <h2>CONTACTO</h2>
+      <br>
+      <input type="text" name="nombre" id="nombre" placeholder="Ingrese sus Nombres"
+        onkeypress="return sololetras(event)" onpaste="return false" required maxlength="50">
+      <input type="text" name="correo" id="correo" placeholder="Ingrese su Correo" required>
+      <input type="text" name="celular" id="celular" placeholder="Ingrese su Celular"
+        onkeypress="return solonumeros(event)" onpaste="return false" required maxlength="9">
+      <textarea name="mensaje" placeholder="Escriba su Mensaje" required></textarea>
+      <input type="submit" id="button-contacto" value="ENVIAR" class="button" onclick="validarCorreo(form.correo.value)">
+    </form>
+  </div>
+
+  <footer class="footer-section">
+    <div class="copyright">
+      <div class="contenedor-footer">
+        <div class="area-footer">
+          <div class="copyright-mensaje">
+            <p>Copyright &copy; 2024, todos los derechos reservados</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
