@@ -84,3 +84,18 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+a {
+    color: #32f10b;
+    text-decoration: none;
+    font-weight: bold;
+    font: 16px sans-serif;
+}
+
+a:hover {
+    color: #ecdd01;  
+    text-decoration: none;
+    text-decoration: underline;
+    font: 16px sans-serif;
+    font-weight: bold;
+}

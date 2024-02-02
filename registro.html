@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login - SPORT</title>
+
+    <meta name="description" content="User login page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no" />
+    <meta charset="utf-8">
+    <script src="assets/js/crearcuenta.js"></script>
+    <link href="assets/css/registro.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <div>
+        <nav class="barra">
+            <h1> Crea tu cuenta en <font class='text-warning'> SPORT </font>v1.0</h1>
+        </nav>
+    </div>
+
+    <div class="container-contacto">
+        <form action="login.html" method="POST" onsubmit="return crearCuenta(this);">
+
+            <h2>Crea tu Cuenta</h2>
+            <br>
+
+            <input type="text" placeholder="Nombre y Apellidos" id="nombre" name="nombre" autocomplete="off">
+            <input type="text" placeholder="Correo electrónico" id="correo" name="correo" autocomplete="off">
+            <input type="password" placeholder="Contraseña" id="password" name="password">
+            <input type="password" placeholder="Repita Contraseña" id="password1" name="password1">
+
+            <label>
+                Recibir notificaciones sobre productos
+                <input type="checkbox" checked>
+            </label>
+
+
+            <label>
+                He leído y acepto los
+                <a href="#">Términos y Condiciones</a></br>
+                <a href="#">y Política de privacidad de mi Tienda</a>
+                <input type="checkbox">
+            </label>
+
+            <button class="btn">Crear Cuenta</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
