@@ -1,0 +1,109 @@
+.container-contacto {
+    width: 100%;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 96px 0;
+}
+
+.container-contacto form {
+    width: 550px;
+    margin: auto;
+    background: rgba(226, 13, 13, 0.4);
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+.container-contacto form h2 {
+    color: #43f80c;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.container-contacto form input:not([type="checkbox"]){
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 17px;
+}
+
+.container-contacto form input:not([type="submit"])::placeholder {
+    color: red;
+}
+
+.container-contacto form input:not([type="submit"]):hover {
+    color: green;
+}
+
+.container-contacto form input:not([type="submit"]):focus-visible {
+    color: rgb(62, 11, 245);
+}
+
+.text-warning {
+    color: #f00e0e
+}
+
+h1 {
+    color: #32f10b
+}
+
+.barra {
+    width: 100%;
+    margin: auto;
+    padding: 10px 10px;
+    margin-top: 10px;
+    background-color: rgba(12, 10, 10, 0.582);
+}
+
+body {
+    font: 14px sans-serif;
+    background-image: url("../img/fondo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container-contacto .btn{
+    width: 100%;
+    padding: 14px;
+    color: #f00e0e;
+    background-color: #3285dd;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.container-contacto .btn:hover{
+    background: #3285dd;
+    color: #fffffa;
+    font-weight: bold;
+}
+
+.container-contacto label {
+    display: block;
+    padding-left: 1px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+  }
+
+  a {
+    color: #32f10b;
+    text-decoration: none;
+    font-weight: bold;
+    font: 16px sans-serif;
+}
+
+a:hover {
+    color: #ecdd01;  
+    text-decoration: none;
+    text-decoration: underline;
+    font: 16px sans-serif;
+    font-weight: bold;
+}

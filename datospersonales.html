@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPORT - Datos Personales</title>
+    <link href="assets/css/datospersonales.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/menu.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/footer.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/estilos.css" rel="stylesheet" type="text/css">
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="menu tituloMenu">
+            <a href="index.html">
+                <p class="titulo">SPORT</p>
+            </a>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="">Gestionar Perfil</a>
+                        <ul>
+                            <li><a href="datospersonales.html">Datos Personales</a></li>
+                            <li><a href="cambiaclave.html">Actualiza tu Clave</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="login.html">Cerrar Sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container-contacto">
+        <form action="#" id="form" method="POST">
+            <h2>DATOS PERSONALES</h2>
+            <br>
+            <p>
+                <label>Nombres:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombres" onkeypress="return sololetras(event)"
+                    onpaste="return false" required maxlength="50">
+            </p>
+            <p>
+                <label>Email:</label>
+                <input type="email" name="correo" id="correo" placeholder="Correo" required>
+            </p>
+            <p>
+                <label>Celular:</label>
+                <input type="text" name="celular" id="celular" placeholder="Celular"
+                    onkeypress="return solonumeros(event)" onpaste="return false" required maxlength="9">
+            </p>
+            <p>
+                <label>Fecha Nacimiento:</label>
+                <input type="date" id="start" min="2018-01-01" />
+            </p>
+            <p>
+                <label>
+                    Masculino
+                    <input type="checkbox">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Femenino
+                    <input type="checkbox">
+                </label>
+            </p>
+            </br></br>
+            <input type="submit" id="button-contacto" value="ENVIAR" class="button">
+        </form>
+    </div>
+
+    <footer class="footer-section">
+        <div class="copyright">
+            <div class="contenedor-footer">
+                <div class="area-footer">
+                    <div class="copyright-mensaje">
+                        <p>Copyright &copy; 2024, todos los derechos reservados</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
