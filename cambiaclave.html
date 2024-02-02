@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPORT - Cambia Clave</title>
+    <link href="assets/css/contacto.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/menu.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/footer.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/estilos.css" rel="stylesheet" type="text/css">
+    <script src="assets/js/cambiaclave.js"></script>
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="menu tituloMenu">
+            <a href="index.html">
+                <p class="titulo">SPORT</p>
+            </a>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="">Gestionar Perfil</a>
+                        <ul>
+                            <li><a href="datospersonales.html">Datos Personales</a></li>
+                            <li><a href="cambiaclave.html">Actualiza tu Clave</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="login.html">Cerrar Sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container-contacto">
+        <form action="login.html" id="form" method="POST" onsubmit="return cambiaClave(this);">
+            <h2>Actualiza Contraseña</h2>
+            <br>
+            <input type="password" placeholder="Contraseña" id="password" name="password">
+            <input type="password" placeholder="Nueva Contraseña" id="password1" name="password1">
+            <input type="password" placeholder="Ingrese Nuevamente Contraseña" id="password2" name="password2">
+            <input type="submit" id="button-contacto" value="ENVIAR" class="button"></br></br>
+        </form>
+
+    </div>
+
+    <footer class="footer-section">
+        <div class="copyright">
+            <div class="contenedor-footer">
+                <div class="area-footer">
+                    <div class="copyright-mensaje">
+                        <p>Copyright &copy; 2024, todos los derechos reservados</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
